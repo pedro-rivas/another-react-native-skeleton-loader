@@ -1,21 +1,30 @@
-# react-native--skeleton-loader
+# another-react-native--skeleton-loader
 
 A react native skeleton loader
+
+## Prerequisites
+To use `another-react-native--skeleton-loader` you will need the following 3 libraries, but don't worries, you probably already used them or you will:
+1. [@react-native-masked-view/masked-view](https://www.npmjs.com/package/@react-native-masked-view/masked-view).
+2. [react-native-linear-gradient](https://www.npmjs.com/package/react-native-linear-gradient).
+3. [react-native-reanimated](https://www.npmjs.com/package/react-native-reanimated).
 
 ## Installation
 
 ```sh
-npm install react-native--skeleton-loader
+// yarn
+yarn i another-react-native--skeleton-loader
+
+// npm
+npm i another-react-native--skeleton-loader
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native--skeleton-loader';
+import SkeletonLoader from 'another-react-native--skeleton-loader';
 
 // ...
 
-const result = await multiply(3, 7);
 ```
 
 ## Contributing
