@@ -12,10 +12,10 @@ To use `another-react-native--skeleton-loader` you will need the following 3 lib
 
 ```sh
 // yarn
-yarn i another-react-native--skeleton-loader
+yarn add another-react-native-skeleton-loader
 
 // npm
-npm i another-react-native--skeleton-loader
+npm i another-react-native-skeleton-loader
 ```
 
 ## Usage
