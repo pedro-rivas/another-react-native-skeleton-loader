@@ -2,6 +2,8 @@ import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
 
+import SkeletonLoader from 'another-react-native-skeleton-loader';
+
 export default function App() {
 
   React.useEffect(() => {
@@ -11,6 +13,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>TODO:</Text>
+      <SkeletonLoader>
+        <View>
+          
+        </View>
+      </SkeletonLoader>
     </View>
   );
 }
